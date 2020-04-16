@@ -17,6 +17,9 @@ function App() {
     <div>
       <Nav />
     <Switch>
+      <Route exact path='/reactPortfolio'>
+        <MainPage />
+      </Route>
       <Route exact path='/'>
         <MainPage />
       </Route>
