@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "### Overview",
   "scripts": {
-    "homepage":"https://slam427.github.io/reactPortfolio/",
-    "deploy": "gh-pages -b master -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
@@ -20,12 +18,11 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-
-  },
+  "bugs": {},
   "dependencies": {
     "axios": "^0.19.2",
     "express": "^4.17.1",
+    "gh-pages": "^2.2.0",
     "if-env": "^1.0.4",
     "mongoose": "^5.9.7"
   },
