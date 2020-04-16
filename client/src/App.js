@@ -17,9 +17,6 @@ function App() {
     <div>
       <Nav />
     <Switch>
-      <Route exact path='/reactPortfolio'>
-        <MainPage />
-      </Route>
       <Route exact path='/'>
         <MainPage />
       </Route>
@@ -28,6 +25,9 @@ function App() {
       </Route>
       <Route exact path='/contact'>
         <ContactPage />
+      </Route>
+      <Route>
+        <MainPage />
       </Route>
     </Switch>
     <Footer />
