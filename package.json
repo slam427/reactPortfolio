@@ -4,6 +4,8 @@
   "description": "### Overview",
   "main": "server.js",
   "scripts": {
+    "homepage":"https://slam427.github.io/reactPortfolio/",
+    "deploy": "gh-pages -b master -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
