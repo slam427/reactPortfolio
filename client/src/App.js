@@ -1,7 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import MainPage from './pages/MainPage';
+import PortfolioPage from './pages/PortfolioPage';
+import ContactPage from './pages/ContactPage';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,18 +15,19 @@ function App() {
   return (
     <Router>
     <div>
-    <Nav />
+      <Nav />
     <Switch>
       <Route path='/'>
-        <Main />
+        <MainPage />
       </Route>
       <Route path='/portfolio'>
-        <Portfolio />
+        <PortfolioPage />
       </Route>
       <Route path='/contact'>
-        <Contact />
+        <ContactPage />
       </Route>
     </Switch>
+    <Footer />
   </div>
 </Router>
 
