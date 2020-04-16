@@ -2,7 +2,6 @@
   "name": "reactportfolio",
   "version": "1.0.0",
   "description": "### Overview",
-  "main": "server.js",
   "scripts": {
     "homepage":"https://slam427.github.io/reactPortfolio/",
     "deploy": "gh-pages -b master -d build",
