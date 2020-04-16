@@ -17,20 +17,19 @@ function App() {
     <div>
       <Nav />
     <Switch>
-      <Route path='/'>
+      <Route exact path='/'>
         <MainPage />
       </Route>
-      <Route path='/portfolio'>
+      <Route exact path='/portfolio'>
         <PortfolioPage />
       </Route>
-      <Route path='/contact'>
+      <Route exact path='/contact'>
         <ContactPage />
       </Route>
     </Switch>
     <Footer />
   </div>
 </Router>
-
-  )}
+)}
 
 export default App;

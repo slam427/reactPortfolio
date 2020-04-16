@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 function Nav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light p-0 m-0">
@@ -14,7 +15,6 @@ function Nav() {
                     <Link to="/">Home</Link>
                     <i id="smile" className="far fa-laugh-beam"></i>
                     </a>
-        
                 </li>
                 <li className="nav-item">
                     <a className="nav-link">

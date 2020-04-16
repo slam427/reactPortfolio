@@ -3,7 +3,7 @@ import React from 'react';
 function ProjectCard() {
     return (
         <div>
-            <div className="card" style="width: 36rem;">
+            <div className="card" style={{width: "36rem"}}>
                 <img src="../PasswordGen.png" className="card-img-top" alt="password generator site" />
                 <div className="card-body">
                     <h5 className="card-title">Password Generator</h5>
@@ -12,7 +12,7 @@ function ProjectCard() {
                 </div>
             </div>
 
-            <div className="card" style="width: 36rem;">
+            <div className="card" style={{width: "36rem"}}>
                 <img src="/unboxed.png" className="card-img-top" alt="boardgame database" />
                 <div className="card-body">
                     <h5 className="card-title">Unboxed</h5>
@@ -21,7 +21,7 @@ function ProjectCard() {
                 </div>
             </div>
 
-            <div className="card" style="width: 36rem;">
+            <div className="card" style={{width: "36rem"}}>
                 <img src="/GroupProject1.png" className="card-img-top" alt="Event search" />
                 <div className="card-body">
                     <h5 className="card-title">What's Happening Philly</h5>
@@ -30,7 +30,7 @@ function ProjectCard() {
                 </div>
             </div>
 
-            <div className="card" style="width: 36rem;">
+            <div className="card" style={{width: "36rem"}}>
                 <img src="/EmployeeGenerator.png" className="card-img-top" alt="developer team builder" />
                 <div className="card-body">
                     <h5 className="card-title">Dev Team Builder</h5>
@@ -39,7 +39,7 @@ function ProjectCard() {
                 </div>
             </div>
 
-            <div className="card" style="width: 36rem;">
+            <div className="card" style={{width: "36rem"}}>
                 <img src="/EmployeeGenerator.png" className="card-img-top" alt="developer team builder" />
                 <div className="card-body">
                     <h5 className="card-title">Dev Team Builder</h5>
